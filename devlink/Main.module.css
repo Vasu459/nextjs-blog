@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'Styreneaweb';
+  src: url('https://uploads-ssl.webflow.com/65e5c854cfd04f15c7029acc/65e60a6cc2b3334d7a30af4b_StyreneAWeb-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* font added by Vasu*/ 
 .section {
   width: 100%;
   height: 100vh;
