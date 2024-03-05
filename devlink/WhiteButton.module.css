@@ -1,0 +1,36 @@
+@media screen and (max-width: 479px) {
+  .contact-button {
+    display: flex;
+    min-height: 64px;
+    min-width: 160px;
+    padding: 20px 40px;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: auto;
+
+    border-radius: 50px;
+
+    background-image: url("https://uploads-ssl.webflow.com/65e5c854cfd04f15c7029acc/65e60f8ce39d0d0a1d4837ab_dots-pattern.svg"), linear-gradient(180deg, #099f0a, #006901);
+    background-position: 0px 0px, 0px 0px;
+    background-size: cover, auto;
+
+    box-shadow: 1px 4px 0 0 #005601;
+
+    font-family: Styreneaweb;
+    color: hsla(0, 0.00%, 100.00%, 1.00);
+    line-height: 1;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .contact-button.white {
+    background-image: url("https://uploads-ssl.webflow.com/65e5c854cfd04f15c7029acc/65e60f8ce39d0d0a1d4837ab_dots-pattern.svg"), linear-gradient(135deg, white, hsla(0, 0.00%, 100.00%, 0.70));
+    background-position: 0px 0px, 0px 0px;
+    background-size: cover, auto;
+    box-shadow: 1px 4px 0 0 #a5a5a5;
+    color: hsla(0, 0.00%, 0.00%, 1.00);
+  }
+}
